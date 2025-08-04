@@ -54,7 +54,7 @@ export default function QuotesPage() {
       };
     });
 
-    const subtotal = items.reduce((sum, item) => sum + item.total, 0);
+    const subtotal = items.reduce((sum: number, item: { total: number }) => sum + item.total, 0);
     const tax = subtotal * 0.1; // 10% tax
     const total = subtotal + tax;
 
@@ -358,7 +358,7 @@ export default function QuotesPage() {
 
                     <div className="mt-3">
                       <p className="text-sm text-gray-600">
-                        {quote.items.length} item(s) • {quote.items.reduce((sum, item) => sum + item.quantity, 0)} total quantity
+                        {quote.items.length} item(s) • {quote.items.reduce((sum: number, item: { quantity: number }) => sum + item.quantity, 0)} total quantity
                       </p>
                     </div>
                   </div>
