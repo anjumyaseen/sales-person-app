@@ -1,9 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
-  "/quotes/page": "app/quotes/page.js",
-  "/leads/page": "app/leads/page.js",
   "/activities/page": "app/activities/page.js",
+  "/page": "app/page.js",
   "/products/page": "app/products/page.js",
-  "/customers/page": "app/customers/page.js"
+  "/leads/page": "app/leads/page.js",
+  "/customers/page": "app/customers/page.js",
+  "/quotes/page": "app/quotes/page.js"
 }
